@@ -1,0 +1,13 @@
+M:\dataset_commit\img1.jpg 1,518,830,555,0
+M:\dataset_commit\img2.jpg 6,130,831,184,0
+M:\dataset_commit\img3.jpg 1,141,832,188,0
+M:\dataset_commit\img4.jpg 1,146,832,206,0
+M:\dataset_commit\img5.jpg 1,159,828,227,0
+M:\dataset_commit\img6.jpg 1,173,832,254,0
+M:\dataset_commit\img7.jpg 381,176,830,198,0
+M:\dataset_commit\img8.jpg 83,179,831,199,0
+M:\dataset_commit\img9.jpg 769,116,781,131,3
+M:\dataset_commit\img10.jpg 190,12,215,65,6
+M:\dataset_commit\img11.jpg 801,559,815,609,6
+M:\dataset_commit\img12.jpg 21,239,136,264,6
+M:\dataset_commit\img13.jpg 250,35,300,321,6
