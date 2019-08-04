@@ -15,7 +15,7 @@ from yolo3.utils import get_random_data
 BACKBONES = ['DarkNet', 'MobileNet', 'MobileNetV2', 'Xception']
 BACKBONE = BACKBONES[0]
 if BACKBONE == BACKBONES[0]:
-    from yolo3.model_DarkNet import preprocess_true_boxes, yolo_body, yolo_loss
+    from yolo3.model_DarkNet import preprocess_true_boxes, yolo_body, yolo_loss  #No model_DarkNet.py available
 elif BACKBONE == BACKBONES[1]:
     from yolo3.model_Mobilenet import preprocess_true_boxes, yolo_body, yolo_loss
 elif BACKBONE == BACKBONES[2]:
@@ -32,7 +32,7 @@ GPUs = 6
 def _main():
     annotation_path = 'dataset/train.txt'
     log_dir = 'logs/{}-MultiGPU'.format(BACKBONE)
-    classes_path = 'dataset/objectclasses.txt'
+    classes_path = 'dataset/object_classes.txt'
     anchors_path = 'dataset/yolo_anchors.txt'
 
     class_names = get_classes(classes_path)
